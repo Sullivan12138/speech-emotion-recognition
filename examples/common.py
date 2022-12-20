@@ -1,10 +1,12 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-from speechemotionrecognition.utilities import get_data, \
+import sys
+sys.path.append('/home/taowei/speech-emotion-recognition/speechemotionrecognition')
+from utilities import get_data, \
     get_feature_vector_from_mfcc
 
-_DATA_PATH = '../dataset'
+_DATA_PATH = './dataset'
 _CLASS_LABELS = ("Neutral", "Angry", "Happy", "Sad")
 
 

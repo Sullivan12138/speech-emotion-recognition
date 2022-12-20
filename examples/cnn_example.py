@@ -5,8 +5,8 @@ This example demonstrates how to use `CNN` model from
 from keras.utils import np_utils
 
 from common import extract_data
-from speechemotionrecognition.dnn import CNN
-from speechemotionrecognition.utilities import get_feature_vector_from_mfcc
+from dnn import CNN
+from utilities import get_feature_vector_from_mfcc
 
 
 def cnn_example():

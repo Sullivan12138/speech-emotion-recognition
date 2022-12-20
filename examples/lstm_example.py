@@ -6,8 +6,8 @@ This example demonstrates how to use `LSTM` model from
 from keras.utils import np_utils
 
 from common import extract_data
-from speechemotionrecognition.dnn import LSTM
-from speechemotionrecognition.utilities import get_feature_vector_from_mfcc
+from dnn import LSTM
+from utilities import get_feature_vector_from_mfcc
 
 
 def lstm_example():

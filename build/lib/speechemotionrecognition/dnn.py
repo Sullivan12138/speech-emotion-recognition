@@ -8,7 +8,7 @@ from keras import Sequential
 from keras.layers import LSTM as KERAS_LSTM, Dense, Dropout, Conv2D, Flatten, \
     BatchNormalization, Activation, MaxPooling2D
 
-from __init__ import Model
+from . import Model
 
 
 class DNN(Model):
